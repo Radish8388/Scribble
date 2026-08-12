@@ -1,0 +1,170 @@
+﻿<Window x:Class="Scribble.ColorPicker"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Scribble"
+        mc:Ignorable="d"
+        Title="Choose Pen Color"
+        WindowStartupLocation="CenterOwner"
+        Height="490" Width="450">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+        <WrapPanel Height="350" Margin="20,20,20,0" VerticalAlignment="Top">
+            <Border Width="30" Height="30" Tag="0" Background="AliceBlue" MouseDown="Border_MouseDown" ToolTip="AliceBlue"/>
+            <Border Width="30" Height="30" Tag="1" Background="AntiqueWhite" MouseDown="Border_MouseDown" ToolTip="AntiqueWhite"/>
+            <Border Width="30" Height="30" Tag="2" Background="Aqua" MouseDown="Border_MouseDown" ToolTip="	 Aqua"/>
+            <Border Width="30" Height="30" Tag="3" Background="Aquamarine" MouseDown="Border_MouseDown" ToolTip="Aquamarine"/>
+            <Border Width="30" Height="30" Tag="4" Background="Azure" MouseDown="Border_MouseDown" ToolTip="Azure"/>
+            <Border Width="30" Height="30" Tag="5" Background="Beige" MouseDown="Border_MouseDown" ToolTip="Beige"/>
+            <Border Width="30" Height="30" Tag="6" Background="Bisque" MouseDown="Border_MouseDown" ToolTip="Bisque"/>
+            <Border Width="30" Height="30" Tag="7" Background="Black" MouseDown="Border_MouseDown" ToolTip="Black"/>
+            <Border Width="30" Height="30" Tag="8" Background="BlanchedAlmond" MouseDown="Border_MouseDown" ToolTip="BlanchedAlmond"/>
+            <Border Width="30" Height="30" Tag="9" Background="Blue" MouseDown="Border_MouseDown" ToolTip="	 Blue"/>
+            <Border Width="30" Height="30" Tag="10" Background="BlueViolet" MouseDown="Border_MouseDown" ToolTip="BlueViolet"/>
+            <Border Width="30" Height="30" Tag="11" Background="Brown" MouseDown="Border_MouseDown" ToolTip="Brown"/>
+            <Border Width="30" Height="30" Tag="12" Background="BurlyWood" MouseDown="Border_MouseDown" ToolTip="BurlyWood"/>
+            <Border Width="30" Height="30" Tag="13" Background="CadetBlue" MouseDown="Border_MouseDown" ToolTip="CadetBlue"/>
+            <Border Width="30" Height="30" Tag="14" Background="Chartreuse" MouseDown="Border_MouseDown" ToolTip="Chartreuse"/>
+            <Border Width="30" Height="30" Tag="15" Background="Chocolate" MouseDown="Border_MouseDown" ToolTip="Chocolate"/>
+            <Border Width="30" Height="30" Tag="16" Background="Coral" MouseDown="Border_MouseDown" ToolTip="Coral"/>
+            <Border Width="30" Height="30" Tag="17" Background="CornflowerBlue" MouseDown="Border_MouseDown" ToolTip="CornflowerBlue"/>
+            <Border Width="30" Height="30" Tag="18" Background="Cornsilk" MouseDown="Border_MouseDown" ToolTip="Cornsilk"/>
+            <Border Width="30" Height="30" Tag="19" Background="Crimson" MouseDown="Border_MouseDown" ToolTip="Crimson"/>
+            <Border Width="30" Height="30" Tag="20" Background="Cyan" MouseDown="Border_MouseDown" ToolTip="Cyan"/>
+            <Border Width="30" Height="30" Tag="21" Background="DarkBlue" MouseDown="Border_MouseDown" ToolTip="DarkBlue"/>
+            <Border Width="30" Height="30" Tag="22" Background="DarkCyan" MouseDown="Border_MouseDown" ToolTip="DarkCyan"/>
+            <Border Width="30" Height="30" Tag="23" Background="DarkGoldenrod" MouseDown="Border_MouseDown" ToolTip="DarkGoldenrod"/>
+            <Border Width="30" Height="30" Tag="24" Background="DarkGray" MouseDown="Border_MouseDown" ToolTip="DarkGray"/>
+            <Border Width="30" Height="30" Tag="25" Background="DarkGreen" MouseDown="Border_MouseDown" ToolTip="DarkGreen"/>
+            <Border Width="30" Height="30" Tag="26" Background="DarkKhaki" MouseDown="Border_MouseDown" ToolTip="DarkKhaki"/>
+            <Border Width="30" Height="30" Tag="27" Background="DarkMagenta" MouseDown="Border_MouseDown" ToolTip="DarkMagenta"/>
+            <Border Width="30" Height="30" Tag="28" Background="DarkOliveGreen" MouseDown="Border_MouseDown" ToolTip="DarkOliveGreen"/>
+            <Border Width="30" Height="30" Tag="29" Background="DarkOrange" MouseDown="Border_MouseDown" ToolTip="DarkOrange"/>
+            <Border Width="30" Height="30" Tag="30" Background="DarkOrchid" MouseDown="Border_MouseDown" ToolTip="DarkOrchid"/>
+            <Border Width="30" Height="30" Tag="31" Background="DarkRed" MouseDown="Border_MouseDown" ToolTip="DarkRed"/>
+            <Border Width="30" Height="30" Tag="32" Background="DarkSalmon" MouseDown="Border_MouseDown" ToolTip="DarkSalmon"/>
+            <Border Width="30" Height="30" Tag="33" Background="DarkSeaGreen" MouseDown="Border_MouseDown" ToolTip="DarkSeaGreen"/>
+            <Border Width="30" Height="30" Tag="34" Background="DarkSlateBlue" MouseDown="Border_MouseDown" ToolTip="DarkSlateBlue"/>
+            <Border Width="30" Height="30" Tag="35" Background="DarkSlateGray" MouseDown="Border_MouseDown" ToolTip="DarkSlateGray"/>
+            <Border Width="30" Height="30" Tag="36" Background="DarkTurquoise" MouseDown="Border_MouseDown" ToolTip="DarkTurquoise"/>
+            <Border Width="30" Height="30" Tag="37" Background="DarkViolet" MouseDown="Border_MouseDown" ToolTip="DarkViolet"/>
+            <Border Width="30" Height="30" Tag="38" Background="DeepPink" MouseDown="Border_MouseDown" ToolTip="DeepPink"/>
+            <Border Width="30" Height="30" Tag="39" Background="DeepSkyBlue" MouseDown="Border_MouseDown" ToolTip="DeepSkyBlue"/>
+            <Border Width="30" Height="30" Tag="40" Background="DimGray" MouseDown="Border_MouseDown" ToolTip="DimGray"/>
+            <Border Width="30" Height="30" Tag="41" Background="DodgerBlue" MouseDown="Border_MouseDown" ToolTip="DodgerBlue"/>
+            <Border Width="30" Height="30" Tag="42" Background="Firebrick" MouseDown="Border_MouseDown" ToolTip="Firebrick"/>
+            <Border Width="30" Height="30" Tag="43" Background="FloralWhite" MouseDown="Border_MouseDown" ToolTip="FloralWhite"/>
+            <Border Width="30" Height="30" Tag="44" Background="ForestGreen" MouseDown="Border_MouseDown" ToolTip="ForestGreen"/>
+            <Border Width="30" Height="30" Tag="45" Background="Fuchsia" MouseDown="Border_MouseDown" ToolTip="Fuchsia"/>
+            <Border Width="30" Height="30" Tag="46" Background="Gainsboro" MouseDown="Border_MouseDown" ToolTip="Gainsboro"/>
+            <Border Width="30" Height="30" Tag="47" Background="GhostWhite" MouseDown="Border_MouseDown" ToolTip="GhostWhite"/>
+            <Border Width="30" Height="30" Tag="48" Background="Gold" MouseDown="Border_MouseDown" ToolTip="Gold"/>
+            <Border Width="30" Height="30" Tag="49" Background="Goldenrod" MouseDown="Border_MouseDown" ToolTip="Goldenrod"/>
+            <Border Width="30" Height="30" Tag="50" Background="Gray" MouseDown="Border_MouseDown" ToolTip="Gray"/>
+            <Border Width="30" Height="30" Tag="51" Background="Green" MouseDown="Border_MouseDown" ToolTip="Green"/>
+            <Border Width="30" Height="30" Tag="52" Background="GreenYellow" MouseDown="Border_MouseDown" ToolTip="GreenYellow"/>
+            <Border Width="30" Height="30" Tag="53" Background="Honeydew" MouseDown="Border_MouseDown" ToolTip="Honeydew"/>
+            <Border Width="30" Height="30" Tag="54" Background="HotPink" MouseDown="Border_MouseDown" ToolTip="HotPink"/>
+            <Border Width="30" Height="30" Tag="55" Background="IndianRed" MouseDown="Border_MouseDown" ToolTip="IndianRed"/>
+            <Border Width="30" Height="30" Tag="56" Background="Indigo" MouseDown="Border_MouseDown" ToolTip="Indigo"/>
+            <Border Width="30" Height="30" Tag="57" Background="Ivory" MouseDown="Border_MouseDown" ToolTip="Ivory"/>
+            <Border Width="30" Height="30" Tag="58" Background="Khaki" MouseDown="Border_MouseDown" ToolTip="Khaki"/>
+            <Border Width="30" Height="30" Tag="59" Background="Lavender" MouseDown="Border_MouseDown" ToolTip="Lavender"/>
+            <Border Width="30" Height="30" Tag="60" Background="LavenderBlush" MouseDown="Border_MouseDown" ToolTip="LavenderBlush"/>
+            <Border Width="30" Height="30" Tag="61" Background="LawnGreen" MouseDown="Border_MouseDown" ToolTip="LawnGreen"/>
+            <Border Width="30" Height="30" Tag="62" Background="LemonChiffon" MouseDown="Border_MouseDown" ToolTip="LemonChiffon"/>
+            <Border Width="30" Height="30" Tag="63" Background="LightBlue" MouseDown="Border_MouseDown" ToolTip="LightBlue"/>
+            <Border Width="30" Height="30" Tag="64" Background="LightCoral" MouseDown="Border_MouseDown" ToolTip="LightCoral"/>
+            <Border Width="30" Height="30" Tag="65" Background="LightCyan" MouseDown="Border_MouseDown" ToolTip="LightCyan"/>
+            <Border Width="30" Height="30" Tag="66" Background="LightGoldenrodYellow" MouseDown="Border_MouseDown" ToolTip="LightGoldenrodYellow"/>
+            <Border Width="30" Height="30" Tag="67" Background="LightGray" MouseDown="Border_MouseDown" ToolTip="LightGray"/>
+            <Border Width="30" Height="30" Tag="68" Background="LightGreen" MouseDown="Border_MouseDown" ToolTip="LightGreen"/>
+            <Border Width="30" Height="30" Tag="69" Background="LightPink" MouseDown="Border_MouseDown" ToolTip="LightPink"/>
+            <Border Width="30" Height="30" Tag="70" Background="LightSalmon" MouseDown="Border_MouseDown" ToolTip="LightSalmon"/>
+            <Border Width="30" Height="30" Tag="71" Background="LightSeaGreen" MouseDown="Border_MouseDown" ToolTip="LightSeaGreen"/>
+            <Border Width="30" Height="30" Tag="72" Background="LightSkyBlue" MouseDown="Border_MouseDown" ToolTip="LightSkyBlue"/>
+            <Border Width="30" Height="30" Tag="73" Background="LightSlateGray" MouseDown="Border_MouseDown" ToolTip="LightSlateGray"/>
+            <Border Width="30" Height="30" Tag="74" Background="LightSteelBlue" MouseDown="Border_MouseDown" ToolTip="LightSteelBlue"/>
+            <Border Width="30" Height="30" Tag="75" Background="LightYellow" MouseDown="Border_MouseDown" ToolTip="LightYellow"/>
+            <Border Width="30" Height="30" Tag="76" Background="Lime" MouseDown="Border_MouseDown" ToolTip="Lime"/>
+            <Border Width="30" Height="30" Tag="77" Background="LimeGreen" MouseDown="Border_MouseDown" ToolTip="LimeGreen"/>
+            <Border Width="30" Height="30" Tag="78" Background="Linen" MouseDown="Border_MouseDown" ToolTip="Linen"/>
+            <Border Width="30" Height="30" Tag="79" Background="Magenta" MouseDown="Border_MouseDown" ToolTip="Magenta"/>
+            <Border Width="30" Height="30" Tag="80" Background="Maroon" MouseDown="Border_MouseDown" ToolTip="Maroon"/>
+            <Border Width="30" Height="30" Tag="81" Background="MediumAquamarine" MouseDown="Border_MouseDown" ToolTip="MediumAquamarine"/>
+            <Border Width="30" Height="30" Tag="82" Background="MediumBlue" MouseDown="Border_MouseDown" ToolTip="MediumBlue"/>
+            <Border Width="30" Height="30" Tag="83" Background="MediumOrchid" MouseDown="Border_MouseDown" ToolTip="MediumOrchid"/>
+            <Border Width="30" Height="30" Tag="84" Background="MediumPurple" MouseDown="Border_MouseDown" ToolTip="MediumPurple"/>
+            <Border Width="30" Height="30" Tag="85" Background="MediumSeaGreen" MouseDown="Border_MouseDown" ToolTip="MediumSeaGreen"/>
+            <Border Width="30" Height="30" Tag="86" Background="MediumSlateBlue" MouseDown="Border_MouseDown" ToolTip="MediumSlateBlue"/>
+            <Border Width="30" Height="30" Tag="87" Background="MediumSpringGreen" MouseDown="Border_MouseDown" ToolTip="MediumSpringGreen"/>
+            <Border Width="30" Height="30" Tag="88" Background="MediumTurquoise" MouseDown="Border_MouseDown" ToolTip="MediumTurquoise"/>
+            <Border Width="30" Height="30" Tag="89" Background="MediumVioletRed" MouseDown="Border_MouseDown" ToolTip="MediumVioletRed"/>
+            <Border Width="30" Height="30" Tag="90" Background="MidnightBlue" MouseDown="Border_MouseDown" ToolTip="MidnightBlue"/>
+            <Border Width="30" Height="30" Tag="91" Background="MintCream" MouseDown="Border_MouseDown" ToolTip="MintCream"/>
+            <Border Width="30" Height="30" Tag="92" Background="MistyRose" MouseDown="Border_MouseDown" ToolTip="MistyRose"/>
+            <Border Width="30" Height="30" Tag="93" Background="Moccasin" MouseDown="Border_MouseDown" ToolTip="Moccasin"/>
+            <Border Width="30" Height="30" Tag="94" Background="NavajoWhite" MouseDown="Border_MouseDown" ToolTip="NavajoWhite"/>
+            <Border Width="30" Height="30" Tag="95" Background="Navy" MouseDown="Border_MouseDown" ToolTip="Navy"/>
+            <Border Width="30" Height="30" Tag="96" Background="OldLace" MouseDown="Border_MouseDown" ToolTip="OldLace"/>
+            <Border Width="30" Height="30" Tag="97" Background="Olive" MouseDown="Border_MouseDown" ToolTip="Olive"/>
+            <Border Width="30" Height="30" Tag="98" Background="OliveDrab" MouseDown="Border_MouseDown" ToolTip="OliveDrab"/>
+            <Border Width="30" Height="30" Tag="99" Background="Orange" MouseDown="Border_MouseDown" ToolTip="Orange"/>
+            <Border Width="30" Height="30" Tag="100" Background="OrangeRed" MouseDown="Border_MouseDown" ToolTip="OrangeRed"/>
+            <Border Width="30" Height="30" Tag="101" Background="Orchid" MouseDown="Border_MouseDown" ToolTip="Orchid"/>
+            <Border Width="30" Height="30" Tag="102" Background="PaleGoldenrod" MouseDown="Border_MouseDown" ToolTip="PaleGoldenrod"/>
+            <Border Width="30" Height="30" Tag="103" Background="PaleGreen" MouseDown="Border_MouseDown" ToolTip="PaleGreen"/>
+            <Border Width="30" Height="30" Tag="104" Background="PaleTurquoise" MouseDown="Border_MouseDown" ToolTip="PaleTurquoise"/>
+            <Border Width="30" Height="30" Tag="105" Background="PaleVioletRed" MouseDown="Border_MouseDown" ToolTip="PaleVioletRed"/>
+            <Border Width="30" Height="30" Tag="106" Background="PapayaWhip" MouseDown="Border_MouseDown" ToolTip="PapayaWhip"/>
+            <Border Width="30" Height="30" Tag="107" Background="PeachPuff" MouseDown="Border_MouseDown" ToolTip="PeachPuff"/>
+            <Border Width="30" Height="30" Tag="108" Background="Peru" MouseDown="Border_MouseDown" ToolTip="Peru"/>
+            <Border Width="30" Height="30" Tag="109" Background="Pink" MouseDown="Border_MouseDown" ToolTip="Pink"/>
+            <Border Width="30" Height="30" Tag="110" Background="Plum" MouseDown="Border_MouseDown" ToolTip="Plum"/>
+            <Border Width="30" Height="30" Tag="111" Background="PowderBlue" MouseDown="Border_MouseDown" ToolTip="PowderBlue"/>
+            <Border Width="30" Height="30" Tag="112" Background="Purple" MouseDown="Border_MouseDown" ToolTip="Purple"/>
+            <Border Width="30" Height="30" Tag="113" Background="Red" MouseDown="Border_MouseDown" ToolTip="Red"/>
+            <Border Width="30" Height="30" Tag="114" Background="RosyBrown" MouseDown="Border_MouseDown" ToolTip="RosyBrown"/>
+            <Border Width="30" Height="30" Tag="115" Background="RoyalBlue" MouseDown="Border_MouseDown" ToolTip="RoyalBlue"/>
+            <Border Width="30" Height="30" Tag="116" Background="SaddleBrown" MouseDown="Border_MouseDown" ToolTip="SaddleBrown"/>
+            <Border Width="30" Height="30" Tag="117" Background="Salmon" MouseDown="Border_MouseDown" ToolTip="Salmon"/>
+            <Border Width="30" Height="30" Tag="118" Background="SandyBrown" MouseDown="Border_MouseDown" ToolTip="SandyBrown"/>
+            <Border Width="30" Height="30" Tag="119" Background="SeaGreen" MouseDown="Border_MouseDown" ToolTip="SeaGreen"/>
+            <Border Width="30" Height="30" Tag="120" Background="SeaShell" MouseDown="Border_MouseDown" ToolTip="SeaShell"/>
+            <Border Width="30" Height="30" Tag="121" Background="Sienna" MouseDown="Border_MouseDown" ToolTip="Sienna"/>
+            <Border Width="30" Height="30" Tag="122" Background="Silver" MouseDown="Border_MouseDown" ToolTip="Silver"/>
+            <Border Width="30" Height="30" Tag="123" Background="SkyBlue" MouseDown="Border_MouseDown" ToolTip="SkyBlue"/>
+            <Border Width="30" Height="30" Tag="124" Background="SlateBlue" MouseDown="Border_MouseDown" ToolTip="SlateBlue"/>
+            <Border Width="30" Height="30" Tag="125" Background="SlateGray" MouseDown="Border_MouseDown" ToolTip="SlateGray"/>
+            <Border Width="30" Height="30" Tag="126" Background="Snow" MouseDown="Border_MouseDown" ToolTip="Snow"/>
+            <Border Width="30" Height="30" Tag="127" Background="SpringGreen" MouseDown="Border_MouseDown" ToolTip="SpringGreen"/>
+            <Border Width="30" Height="30" Tag="128" Background="SteelBlue" MouseDown="Border_MouseDown" ToolTip="SteelBlue"/>
+            <Border Width="30" Height="30" Tag="129" Background="Tan" MouseDown="Border_MouseDown" ToolTip="Tan"/>
+            <Border Width="30" Height="30" Tag="130" Background="Teal" MouseDown="Border_MouseDown" ToolTip="Teal"/>
+            <Border Width="30" Height="30" Tag="131" Background="Thistle" MouseDown="Border_MouseDown" ToolTip="Thistle"/>
+            <Border Width="30" Height="30" Tag="132" Background="Tomato" MouseDown="Border_MouseDown" ToolTip="Tomato"/>
+            <Border Width="30" Height="30" Tag="133" Background="Turquoise" MouseDown="Border_MouseDown" ToolTip="Turquoise"/>
+            <Border Width="30" Height="30" Tag="134" Background="Violet" MouseDown="Border_MouseDown" ToolTip="Violet"/>
+            <Border Width="30" Height="30" Tag="135" Background="Wheat" MouseDown="Border_MouseDown" ToolTip="Wheat"/>
+            <Border Width="30" Height="30" Tag="136" Background="White" MouseDown="Border_MouseDown" ToolTip="White"/>
+            <Border Width="30" Height="30" Tag="137" Background="WhiteSmoke" MouseDown="Border_MouseDown" ToolTip="WhiteSmoke"/>
+            <Border Width="30" Height="30" Tag="138" Background="Yellow" MouseDown="Border_MouseDown" ToolTip="Yellow"/>
+            <Border Width="30" Height="30" Tag="139" Background="YellowGreen" MouseDown="Border_MouseDown" ToolTip="YellowGreen"/>
+
+        </WrapPanel>
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Left">
+            <TextBlock Text="Selected Color:" Margin="20,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <Border x:Name="Selected" Width="30" Height="30" Background="Black" Margin="5"/>
+            <Button Name="okButton" Content="OK" Click="okButton_Click" Width="75" Margin="100,5,5,5" IsDefault="True"/>
+            <Button Name="cancelButton" Content="Cancel" Click="cancelButton_Click" Width="75" Margin="5" IsCancel="True"/>
+        </StackPanel>
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Left">
+            <TextBlock x:Name="colorname" Text="Color Name" Margin="102,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        </StackPanel>
+    </Grid>
+</Window>
