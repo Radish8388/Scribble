@@ -6,8 +6,8 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
-    <ApplicationIcon>Icons\scribble2.ico</ApplicationIcon>
-    <Version>1.3.0</Version>
+    <ApplicationIcon>Icons\scribble3.ico</ApplicationIcon>
+    <Version>1.3.1</Version>
     <Company>Radish</Company>
     <Product>Scribble</Product>
     <Copyright>© 2026 Radish</Copyright>
@@ -24,6 +24,10 @@
     <None Remove="Icons\scribble2.ico" />
     <None Remove="Icons\undo3.png" />
     <None Remove="Icons\width3.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Icons\scribble3.ico" />
   </ItemGroup>
 
   <ItemGroup>

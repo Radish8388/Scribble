@@ -1,9 +1,9 @@
 [Setup]
 AppName=Scribble
-AppVersion=1.3.0
+AppVersion=1.3.1
 DefaultDirName={autopf}\Radish\Scribble
 DefaultGroupName=Radish
-SetupIconFile=Icons\scribble2.ico
+SetupIconFile=Icons\scribble3.ico
 UninstallDisplayIcon={app}\Scribble.exe
 LicenseFile=LICENSE.txt
 OutputBaseFilename=ScribbleSetup

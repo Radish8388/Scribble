@@ -14,11 +14,11 @@
     <DockPanel>
         <Menu DockPanel.Dock="Top">
             <MenuItem Header="_File">
-                <MenuItem Header="_New" InputGestureText="Ctrl+N" Click="New_Click">
+                <MenuItem Header="_New Tab" InputGestureText="Ctrl+N" Click="New_Click">
                 </MenuItem>
                 <MenuItem Header="_Open" InputGestureText="Ctrl+O" Click="Open_Click">
                 </MenuItem>
-                <MenuItem Header="_Close" Click="Close_Click">
+                <MenuItem Header="_Close Tab" Click="Close_Click">
                 </MenuItem>
                 <MenuItem x:Name="SaveMenu" Header="_Save" InputGestureText="Ctrl+S" Click="Save_Click">
                 </MenuItem>
@@ -62,7 +62,7 @@
 
         <ToolBarTray DockPanel.Dock="Top">
             <ToolBar>
-                <Button Click="New_Click" ToolTip="New">
+                <Button Click="New_Click" ToolTip="New Tab">
                     <Image Source="Icons/new3.png" Height="20" Width="20"/>
                 </Button>
                 <Button Click="Open_Click" ToolTip="Open">
